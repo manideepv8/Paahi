@@ -19,7 +19,7 @@
 -------------------------------------------------------------------*/
 
 body {
-    color: #666666;
+    color: #e7e7e7;
     font-size: 15px;
     font-family: 'Athiti', sans-serif;
     line-height: 1.80857;
@@ -49,7 +49,7 @@ h6 {
     padding: 0 0 10px 0;
     font-weight: normal;
     line-height: 120% !important;
-    color: #1f1f1f;
+    color: white;
     margin: 0
 }
 
@@ -220,7 +220,7 @@ button:focus{
     color: #fff;
 	line-height: 80px;
 	text-align: center;
-    transition: all .3s ease-in-out;
+    : all .3s ease-intransition-out;
 }
 .slides-navigation a i{
 	font-size: 40px;
@@ -307,19 +307,19 @@ button:focus{
 -------------------------------------------------------------------*/
 
 .about-section-box{
-	padding: 70px 0px;
+	padding: 100px 0px;
 }
 .about-section-box .img-fluid{
-	box-shadow: -10px -10px 0px #d0a772;
+	box-shadow: -6px -6px 0px #a2d2ff;
 }
 .inner-column{}
 .inner-column h1{
 	font-family: 'Arbutus Slab', serif;
 	font-size: 30px;
-	color: #010101;
+	color: #a2d2ff;
 }
 .inner-column h1 span{
-	color: #d0a772;
+	color: #a2d2ff2;
 }
 .inner-column h4{
 	font-size: 22px;
@@ -329,7 +329,7 @@ button:focus{
 	font-size: 18px;
 }
 .inner-column .btn-outline-new-white{
-	color: #d0a772;
+	color: #a2d2ff;
 }
 .inner-column .btn-outline-new-white:hover{
 	color: #ffffff;
@@ -368,14 +368,15 @@ button:focus{
 -------------------------------------------------------------------*/
 
 .menu-box{
-	padding: 70px 0px;
+	padding: 100px 0px;
+    padding-bottom: 50px;
 }
 
 .heading-title{
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 }
 .heading-title h2{
-	color: #010101;
+	color: #a2d2ff;
 	font-size: 28px;
 	font-family: 'Arbutus Slab', serif;
 }
@@ -386,20 +387,20 @@ button:focus{
 }
 
 .filter-button-group {
-    border: 1px solid #e4e4e4;
+    border: 1px solid #;
     border-radius: 4px;
     margin: 10px 15px;
     display: inline-block;
 }
 
 .filter-button-group button {
-    color: #333;
+    color: rgb(255, 255, 255);
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 14px;
     cursor: pointer;
-    background: #fff;
+    background: #383838;
     padding: 12px 40px;
     border: none;
     border-radius: 4px;
@@ -407,7 +408,7 @@ button:focus{
 
 .filter-button-group button.active {
     background: #a2d2ff;
-    color: #fff;
+    color: #080808;
     box-shadow: 2px 20px 45px 5px rgba(0,0,0,.2);
 }
 
@@ -418,8 +419,6 @@ button:focus{
 .gallery-single {
     position: relative;
     overflow: hidden;
-    -webkit-box-shadow: 0 0 10px #ccc;
-    box-shadow: 0 0 10px #ccc;
 }
 
 .why-text {
@@ -485,7 +484,8 @@ button:focus{
 -------------------------------------------------------------------*/
 
 .customer-reviews-box{
-	padding: 70px 0px;
+	padding: 40px 0px;
+    margin-bottom: 50px;
 }
 
 .carousel-inner .carousel-item .img-box{
@@ -502,8 +502,8 @@ button:focus{
 	top: 320px;
 }
 
-.text-warning{
-	color: #d0a772 !important;
+.text-warning2{
+	color: #a2d2ff;
 	font-size: 24px;
 }
 
@@ -523,7 +523,7 @@ button:focus{
 }
 
 #reviews .carousel-control-prev{
-	background: #a2d2ff;
+	background: #080808;
 	color: #ffffff;
 	display: block;
 	position: absolute;
@@ -534,12 +534,12 @@ button:focus{
 	opacity: 1;
 }
 #reviews .carousel-control-prev:hover{
-	background: #010101;
-	color: #ffffff;
+	background: #a2d2ff;
+	color: #080808;
 }
 
 #reviews .carousel-control-next{
-	background: #a2d2ff;
+	background: #080808;
 	color: #ffffff;
 	display: block;
 	position: absolute;
@@ -550,8 +550,8 @@ button:focus{
 	opacity: 1;
 }
 #reviews .carousel-control-next:hover{
-	background: #010101;
-	color: #ffffff;
+	background: #a2d2ff;
+	color: #080808;
 }
 
 
@@ -560,7 +560,7 @@ button:focus{
 -------------------------------------------------------------------*/
 
 .contact-imfo-box{
-	background: #a2d2ff;
+	background: #383838;
 	padding: 30px 0;
 }
 
@@ -576,7 +576,7 @@ button:focus{
 	line-height: 60px;
 	text-align: center;
 	background: #fff;
-	color: #a2d2ff;
+	color: #383838;
 	font-size: 30px;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -604,11 +604,10 @@ button:focus{
 -------------------------------------------------------------------*/
 
 .footer-area{
-	padding-top: 50px;
+	padding-top: 0px;
 	padding-bottom: 0px;
 }
 .bg-f{
-	/* background-image: url("../images/footer-bg.jpg"); */
 	background-attachment: scroll;
 	background-clip: initial;
 	background-color: rgba(0, 0, 0, 0);
@@ -720,7 +719,7 @@ button:focus{
 	margin-top: 0px;
 	position: relative;
 	display: block;
-	background-color: #010101;
+	background-color: #080808;
 	border-top: 0px dashed #a2d2ff;
 	padding: 30px 0;
 	z-index: 1;
@@ -740,10 +739,8 @@ button:focus{
 
 .page-breadcrumb {
     padding: 250px 0 150px;
-    background: url(../images/all-bg.jpg) no-repeat;
+    background: url(../images/food/hero.jpg) no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-    background-position: 0 0;
     position: relative;
 }
 .all-page-title .container{
@@ -1313,7 +1310,7 @@ blockquote {
     height: 32px;
     text-align: center;
     line-height: 30px;
-    background: #d0a772;
+    background: #a2d2ff;
     color: #ffffff;
     cursor: pointer;
     border: 0;
@@ -1327,6 +1324,10 @@ blockquote {
 /*------------------------------------------------------------------
     CUSTOM CSS
 -------------------------------------------------------------------*/
+
+body {
+    background-color: #080808;
+}
 
 html {
     scroll-behavior: smooth;
@@ -1350,4 +1351,85 @@ html {
 
 .special-grid {
     margin-bottom: -28px;
+    transition: transform .2s;
 }
+
+.special-grid:hover {
+    transform: scale(1.08);
+  }
+
+  .service-button {
+    color: white;
+    transition: all .2s ease-in-out;
+  }
+
+  .service-button:hover {
+    color: #080808;
+    background: #a2d2ff;
+  }
+
+  #aboutscroll {
+    margin-top: 340px;
+  }
+
+  #aboutscroll a{
+    height: 1px !important;
+    width: 1px !important;
+  }
+
+  #aboutscroll a:hover {
+    background: none;
+  }
+
+  .navbar-toggler {
+    filter: drop-shadow(2px 1px 1px rgb(22, 22, 22));
+}
+
+#gallerybtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #383838;
+    border: 1px #383838;
+    border-radius: 7px;
+    color: white;
+    box-shadow: 2px 5px 6px rgb(0, 0, 0);
+    font-size: larger;
+    font-weight: 900;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: all .2s ease-in-out;
+}
+
+#gallerybtn:hover {
+    color: #080808;
+    background: #a2d2ff;
+    border: 1px #a2d2ff;
+    border-radius: 7px;
+    box-shadow: 2px 5px 6px rgb(0, 0, 0);
+    transform: scale(1.05);
+}
+
+.dropdown-item {
+    transition: all .2s ease-in-out;
+}
+
+.dropdown-item:hover {
+    color: white;
+    background: #a2d2ff;
+    transform: scale(1.05);
+}
+
+#divbtn {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 800px) {
+    .service-button {
+      margin-bottom: 4px;
+    }
+  }
